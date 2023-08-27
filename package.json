@@ -1,0 +1,20 @@
+{
+  "name": "mongo-db-app",
+  "version": "1.0.0",
+  "description": "this appliaction makes for learning mongo db",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Saher Nasef",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.3",
+    "nodemon": "^3.0.1",
+    "uuid": "^9.0.0"
+  }
+}

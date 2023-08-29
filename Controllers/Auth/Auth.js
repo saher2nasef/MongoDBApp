@@ -150,7 +150,7 @@ AuthRouter.post("/SignIn", (req, res) => {
       Email: Email,
       Password: Password,
     }).then((User) => {
-      if (User.length == 0) {
+      if (User === null) {
         MessageToUser(
           400,
           "Error",
